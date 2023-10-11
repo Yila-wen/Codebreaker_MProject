@@ -28,7 +28,7 @@ function clearGuess() {
 
 function checkGuess() {
     attempts++;
-    document.getElementById("clock").innerText = 7 - attempts;
+    document.getElementById("clock").innerText ="Turns: " +(7 - attempts);
 
     let result = "";
 
